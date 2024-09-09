@@ -1,6 +1,3 @@
-import javax.naming.NameNotFoundException;
-
-import java.security.cert.PKIXRevocationChecker.Option;
 import java.util.Optional;
 
 /**
@@ -24,6 +21,9 @@ public class OptionalTest {
         System.out.println(name.isPresent());
     }
 
+    /**
+     * Auxiliary method that returns an optional (empty or not)
+     */
     public static Optional<String> getStudentById(int id) {
         if (id == 1) {
             return Optional.of("Mamãe");
