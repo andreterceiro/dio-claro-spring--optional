@@ -2,6 +2,7 @@ import java.util.Optional;
 
 /**
  * Class to mak manual tests of optionals
+ * 
  */
 public class OptionalTest {
     /**
